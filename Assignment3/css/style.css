@@ -1,0 +1,99 @@
+
+/* style for php pages */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    border-bottom: #77b6ea 3px solid;
+    
+}
+
+header h1, header h3 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+main {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+}
+
+footer {
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border-top: #77b6ea 3px solid;
+}
+
+form {
+    margin: 20px 0;
+    padding: 10px;
+    background: #e4e4e4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background: #77b6ea;
+}
+
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    color: #a94442;
+}
